@@ -101,7 +101,7 @@ main{
 /* Plan Style */
 .my-plan{
     padding-bottom: 10px;
-    margin: 80px 0 90px 80px;
+    margin: 80px 0 90px 90px;
 
     }
 .my-plan-head{
@@ -140,10 +140,9 @@ main{
 .positive-mindset{
     position: relative;
     background-image: url(../images/watch.png);
-    width: 200vh;
-    height: 100vh;
     background-repeat: no-repeat;
-    margin-left: 90px;
+    margin-left: 100px;
+    margin-bottom: 90px;
 }
 .positive{
     position: absolute;
@@ -156,4 +155,33 @@ main{
     font-size: 40px;
     font-weight: 700;
    
+}
+footer{
+    background: var(--Dark-01, #151414);
+    width: 1349px;
+    /* height: 400px; */
+}
+.future-subscribe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 105px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+.future-plan{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-pera{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 100px;
+    margin-right: 60px;
 }
