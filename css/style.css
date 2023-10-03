@@ -48,3 +48,53 @@
     font-size: 20px;
     font-weight: 600;
 }
+/* Main Style */
+main{
+    width: 1330px;
+    margin: 0 auto;
+}
+/* Failure Style */
+.her-failures{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0 0 40px;
+    padding-left: 90px;
+}
+.failure-img-1{
+    width: 451px;
+}
+.failure-text{
+    margin-right: 80px;
+    padding-right: 120px;
+}
+.failure-text-3{
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+.failure-pera {
+    color: var(--Dark-02, #444343);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-right: 20px;
+}
+.pera-child{
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.failure-text-list{
+    padding-top: 16px;
+}
+.failure-icon .fa-solid{
+    float: left;
+    padding-right: 10px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
