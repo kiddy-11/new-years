@@ -173,7 +173,6 @@ footer{
 }
 .future-plan{
     color: #F8F8F8;
-    font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
 }
@@ -198,4 +197,39 @@ footer{
 .so-me{
     padding-right: 12px;
     padding-top: 16px;
+}
+/* Subscribe Style */
+.subscribe{
+    padding-bottom: 60px;
+}
+.sub{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.email-1{
+    color: var(--Dark-07, #F3F3F3);
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+    padding-left: 21px;
+    margin-top: 16px;
+}
+.button{
+    padding-top: 40px;
+}
+.second-btn{
+    border-radius: 8px;
+    background: #005FAC;
+    padding: 20px 36px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 }
